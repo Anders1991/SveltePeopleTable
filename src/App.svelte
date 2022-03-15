@@ -1,30 +1,9 @@
 <script>
-	
+	import PeopleTable from "./PeopleTable.svelte";
 </script>
 
 <main>
-	<h1>Svelte People Table</h1>
+	<h1>Svelte Table of People</h1>
 
+  	<PeopleTable />
 </main>
-
-<style>
-	main {
-		text-align: center;
-		padding: 1em;
-		max-width: 240px;
-		margin: 0 auto;
-	}
-
-	h1 {
-		color: #ff3e00;
-		text-transform: uppercase;
-		font-size: 4em;
-		font-weight: 100;
-	}
-
-	@media (min-width: 640px) {
-		main {
-			max-width: none;
-		}
-	}
-</style>
